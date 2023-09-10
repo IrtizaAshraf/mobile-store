@@ -5,15 +5,34 @@ body{
 }
 
 div{
-      color: white;
+      /* color: white;
       text-align: center;
       font-weight: 800;
       display: flex;
       padding: 8%;
       margin: auto;
       margin: 3% 20px;
-      padding-left: 40px;
+      padding-left: 40px; */
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-evenly;
+      background-color: rgb(116, 141, 141);
+      padding: 100px;
+      gap:20px;
 
+}
+.main{
+      background-color:rgb(128, 133, 122);
+      padding: 10px;
+     box-shadow: 5px 5px 10px #0000006b;
+     border-radius: 20px 10px 20px 10px;
+}
+img{
+  
+      width: 200px;
+      border-radius: 5px;
+  
 }
 
 
@@ -28,3 +47,26 @@ p{
 button{
       background: #dc1b1b;
 } */
+
+.cart{
+      padding: 10px 20px 10px 20px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      background-color: #709a9c;
+      color: white;
+      font-size:20px;
+      font-weight: bold;
+      border: none;
+      border-radius: 10px 20px 20px 10px;
+  
+}
+ 
+span{
+      
+      font-size: xx-large;
+      color: #000000;
+      background-color: #faf6d3b2;
+      padding: 5px;
+      border-radius: 5px;
+      margin-bottom: 5px;
+}
